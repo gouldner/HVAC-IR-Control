@@ -1,0 +1,16 @@
+These instructions pulled from git issue page
+https://github.com/r45635/HVAC-IR-Control/issues/20
+
+sudo apt-get install git -y
+sudo apt-get install python python-dev python-pip python-rpi.gpio pigpio -y
+# Original sudo pip install git+https://github.com/r45635/HVAC-IR-Control
+sudo pip install git+https://github.com/Ericmas001/HVAC-IR-Control
+sudo pip install pigpio
+sudo pip install flask
+
+Flask is a python based web server.  http://flask.pocoo.org/
+
+The page also provided code needed for Flask.  I created the files in folder HVAC-IR-Control_Flask_Web_Service.
+
+
+
